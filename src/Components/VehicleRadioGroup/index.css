@@ -1,0 +1,29 @@
+ul.radio-group {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+ul.radio-group.hidden {
+  visibility: hidden;
+}
+
+li.radio-item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+li.radio-item > input {
+  margin: 0;
+  padding: 0;
+}
+
+li.radio-item > label {
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+li.radio-item > input:disabled + label {
+  color: var(--color-secondary);
+}

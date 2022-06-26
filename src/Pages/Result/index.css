@@ -1,0 +1,14 @@
+.heading {
+  padding: 1em 0;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.subheading {
+  text-align: center;
+}
+
+.again-action {
+  display: block;
+  margin: 8em auto;
+}

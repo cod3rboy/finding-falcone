@@ -1,0 +1,34 @@
+.select-root {
+  position: relative;
+}
+
+.select-root > input[type="text"] {
+  position: relative;
+  margin-bottom: 0.25em;
+  cursor: default;
+}
+
+.suggestion-list {
+  position: absolute;
+  display: none;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  list-style: none;
+  background-color: #eee;
+  border-radius: 0.4rem;
+}
+
+.suggestion-list.open {
+  display: block;
+}
+
+.suggestion-list > li {
+  cursor: default;
+  padding: 0 0.5em;
+}
+
+.suggestion-list > li:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-text-secondary);
+}
